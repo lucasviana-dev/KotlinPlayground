@@ -5,15 +5,15 @@ package Test
 // Desafio:
 // Peça a idade do usuário e diga se ele é maior ou menor de idade.
 
-fun main () {
-    println ("Digite abaixo sua idade: ")
+fun main() {
+    println("Digite abaixo sua idade: ")
     val ageInput = readLine()?.toIntOrNull()
 
-    if (ageInput != null) {
-        if (ageInput >= 18) {
+    if(ageInput != null) {
+        if(ageInput >= 18) {
             println("Parabéns, você já atingiu a maioridade!")
         } else {
-            println ("MENOR DE IDADE")
+            println("MENOR DE IDADE")
         }
 
     } else {

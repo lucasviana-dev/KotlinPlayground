@@ -9,7 +9,7 @@ fun main() {
 
     println("Indique abaixo DEZ valores quaisquer.")
 
-    while (contador <= 10) {
+    while(contador <= 10) {
         println("Digite o ${contador}º valor: ")
         val number = readLine()?.toDoubleOrNull()
 
@@ -22,5 +22,5 @@ fun main() {
     }
     val mediaArithmetic = soma / 10
     println("\nA soma dos valores é igual a $soma")
-    println ("A média aritmética é %.2f\n".format(mediaArithmetic))
+    println("A média aritmética é %.2f\n".format(mediaArithmetic))
 }

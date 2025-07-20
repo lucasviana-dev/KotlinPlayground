@@ -22,7 +22,7 @@ fun main() {
         println("Insira também num modelo de 24 horas, o horário atual: ")
         val hour = readLine()?.toIntOrNull()
 
-        if (hour == null) {
+        if(hour == null) {
             println("ENTRADA INVÁLIDA! Digite apenas números inteiros.")
         } else {
             val saudacao = saudacaoPersonalizada(name, hour)

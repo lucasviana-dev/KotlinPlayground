@@ -17,7 +17,7 @@ fun main() {
             print("NOTA $contador: ")
             val score = readLine()?.toDoubleOrNull()
 
-            if (score == null || score < 0 || score > 10) {
+            if(score == null || score < 0 || score > 10) {
                 println("NOTA INVÁLIDA! Declare um número entre 0 e 10.")
             } else {
                 notas.add(score)

@@ -21,7 +21,7 @@ fun main() {
         println("4 ➜ Divisão (/)")
         val operacao = readLine()?.toIntOrNull()
 
-        if (operacao == null || operacao > 4) {
+        if(operacao == null || operacao > 4) {
             println("Entrada inválida! Digite um número entre 1 e 4.")
             return
         } else {

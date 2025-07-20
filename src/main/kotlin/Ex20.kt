@@ -8,7 +8,7 @@ fun main() {
 
     var negativeNumbers = 0
 
-    for (contador in 1..10) {
+    for(contador in 1..10) {
         println("Digite um valor qualquer: ")
         val number = readLine()?.toDoubleOrNull()
 

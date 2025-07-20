@@ -19,7 +19,7 @@ fun main() {
     if(name.isNullOrBlank()) {
         println("Entrada INVÁLIDA! Por favor, insira apenas seu nome.")
         return
-    } else if (validacao(name)) {
+    } else if(validacao(name)) {
         println("NOME VÁLIDO")
     } else {
         println("NOME INVÁLIDO! Use apenas letras e espaços.")

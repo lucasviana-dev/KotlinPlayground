@@ -4,7 +4,7 @@ package Test
 
 fun main() {
 
-    println ("Digite um número inteiro qualquer (MAIOR QUE ZERO): ")
+    println("Digite um número inteiro qualquer (MAIOR QUE ZERO): ")
     val number = readLine()?.toIntOrNull()
 
     if(number == null || number <= 0) {

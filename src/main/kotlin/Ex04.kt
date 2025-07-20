@@ -11,17 +11,17 @@ package Test
 // ...
 // 7 x 10 = 70
 
-fun main () {
-    print ("Qual número você gostaria que fosse apresentado em forma de tabuada? ")
+fun main() {
+    print("Qual número você gostaria que fosse apresentado em forma de tabuada? ")
     val number = readLine()?.toIntOrNull()
 
-    if (number != null) {
+    if(number != null) {
         println("\nTabuada do número $number\n")
-        for (contador in 1..10) {
+        for(contador in 1..10) {
             println("$number X $contador = ${number * contador}")
         }
     } else {
-        println ("Entrada inválida!")
+        println("Entrada inválida!")
     }
 
 }

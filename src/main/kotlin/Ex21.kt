@@ -9,7 +9,7 @@ fun main() {
 
     println("Indique abaixo DEZ valores quaisquer.")
 
-    for (contador in 1..10) {
+    for(contador in 1..10) {
         println("Digite um valor qualquer: ")
         val number = readLine()?.toDoubleOrNull()
 

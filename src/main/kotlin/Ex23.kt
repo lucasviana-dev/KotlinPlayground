@@ -5,21 +5,21 @@ package Test
 //Positivo, negativo ou zero
 //Múltiplo de 3 ou 5
 
-fun main () {
+fun main() {
 
     println("Declare um número inteiro qualquer:")
     val wholeNumber = readLine()?.toIntOrNull()
 
-    if (wholeNumber == null) {
+    if(wholeNumber == null) {
         println("NÚMERO INVÁLIDO! Favor inserir apenas números inteiros.")
     } else {
-        if (wholeNumber % 2 == 0) {
+        if(wholeNumber % 2 == 0) {
             println("-> Número PAR")
         } else {
             println("-> Número ÍMPAR")
         }
 
-        if (wholeNumber > 0) {
+        if(wholeNumber > 0) {
             println("-> NÚMERO POSITIVO")
         } else if (wholeNumber < 0) {
             println("-> Número NEGATIVO")
