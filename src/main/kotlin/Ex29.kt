@@ -1,4 +1,4 @@
-package KotlinProjects
+package Test
 
 import Test.verificacaoPalindromo
 

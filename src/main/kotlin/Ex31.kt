@@ -1,4 +1,4 @@
-package KotlinProjects
+package Test
 
 //Desafio 2: Saudação Inteligente
 //Objetivo:
